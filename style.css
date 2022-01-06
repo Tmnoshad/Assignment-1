@@ -1,0 +1,128 @@
+/* Common css part */
+body{
+    margin: 0;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+.half-width {
+    width: 40%;
+    margin: 0 5%;
+}
+.display-flex {
+    display: flex;
+}
+span {
+    color: #F5735B;
+}
+h2 {
+    font-family: 'Poppins', sans-serif;  
+    color: #13103A;
+}
+.heading {
+    color: #13103A;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.button-design {
+    color: aliceblue;
+    background: #F5735B;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+
+/* Banner section css part */
+.banner-left-section h1 {
+    color: #0C242E;
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+}
+.banner-right-section img{
+width: 60%;
+}
+
+/* my mission section css part */
+.box-half-width {
+    width: 27%;
+    margin: 0 2% 0 3%;
+    padding: 20px;
+}
+.image-container img {
+    width: 200px;
+}
+.my-mission-description h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.mission {
+    background-color: #EEF6F7;
+    border-radius: 10px;
+}
+.vision {
+    background-color: #FFEFEF;
+    border-radius: 10px;
+}
+.goal {
+    background-color: #FFF4D6;
+    border-radius: 10px;
+}
+/* develop and global section css part */
+#develop,
+#global-community {
+    margin-top: 100px;
+}
+.develop-image-container,
+.global-image-container {
+    width: 30%;
+    margin-left: 5%;
+}
+.develop-image-container img,
+.global-image-container img {
+    width: 90%;
+}
+.develop-description-section,
+.global-description-section
+ {
+    width: 50%;
+    margin: 0 5%;
+}
+.develop-description-section h2,
+.global-description-section h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+/* by blog section css part */
+#blog {
+    margin-top: 100px;
+}
+
+.blog-image-container img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+/* footer section css part */
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 30px 0;
+    margin-top: 100px;
+}
+
+footer h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 36px;
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+footer p {
+    color: #D9DBE1;
+}
